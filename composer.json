@@ -1,0 +1,17 @@
+{
+    "name": "ala-stronixe/ide_import_and_configure",
+    "description": "import ide",
+    "authors": [
+        {
+            "name": "DRIDI1990",
+            "email": "a_ladridi@live.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["classes/ide.php"],
+        "psr-4": {
+            "ModuleIde\\Adapter\\": "src/Adapter/IdeProduct"
+          }
+    }
+}
